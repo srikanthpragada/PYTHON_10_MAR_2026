@@ -49,9 +49,12 @@
     "Python.discount.executor": "Run",
     "Python.enumerate_demo.executor": "Run",
     "Python.even_odd.executor": "Run",
+    "Python.filter_demo1.executor": "Run",
+    "Python.filter_demo_2.executor": "Run",
     "Python.first_digit_pos.executor": "Run",
     "Python.first_upper.executor": "Run",
     "Python.for_demo.executor": "Run",
+    "Python.fun_as_object.executor": "Run",
     "Python.hello.executor": "Run",
     "Python.kw_args.executor": "Run",
     "Python.kw_only.executor": "Run",
@@ -60,8 +63,12 @@
     "Python.lc_codes.executor": "Run",
     "Python.lc_squares.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.map_demo_1.executor": "Run",
+    "Python.map_demo_2.executor": "Run",
     "Python.net_amount.executor": "Run",
     "Python.net_price.executor": "Run",
+    "Python.pass_fun_as_arg.executor": "Run",
+    "Python.pos_only.executor": "Run",
     "Python.prime.executor": "Run",
     "Python.prime_v2.executor": "Run",
     "Python.print_table.executor": "Run",
@@ -71,6 +78,8 @@
     "Python.smallest_factor.executor": "Run",
     "Python.sort_nums.executor": "Run",
     "Python.sort_str.executor": "Run",
+    "Python.sorted_demo_1.executor": "Run",
+    "Python.sorted_demo_2.executor": "Run",
     "Python.student_marks.executor": "Run",
     "Python.student_total_marks.executor": "Run",
     "Python.sum_codes.executor": "Run",
@@ -89,19 +98,20 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/classroom/mar10/ds",
+    "last_opened_file_path": "C:/classroom/mar10/funs",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\classroom\mar10\funs" />
       <recent name="C:\classroom\mar10\ds" />
       <recent name="C:\classroom\mar10\assignments" />
       <recent name="C:\classroom\mar10\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pos_only">
-    <configuration name="kw_args" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sorted_demo_2">
+    <configuration name="filter_demo_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mar10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,29 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/kw_args.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="kw_only" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="mar10" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/funs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/kw_only.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/filter_demo_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pos_only" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="map_demo_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mar10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,7 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/pos_only.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/map_demo_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wish_def" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="map_demo_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mar10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,7 +190,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/wish_def.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/map_demo_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wishall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sorted_demo_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mar10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +212,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/wishall.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/sorted_demo_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sorted_demo_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mar10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/funs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funs/sorted_demo_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pos_only" />
-        <item itemvalue="Python.kw_only" />
-        <item itemvalue="Python.wishall" />
-        <item itemvalue="Python.kw_args" />
-        <item itemvalue="Python.wish_def" />
+        <item itemvalue="Python.sorted_demo_2" />
+        <item itemvalue="Python.sorted_demo_1" />
+        <item itemvalue="Python.map_demo_2" />
+        <item itemvalue="Python.map_demo_1" />
+        <item itemvalue="Python.filter_demo_2" />
       </list>
     </recent_temporary>
   </component>
