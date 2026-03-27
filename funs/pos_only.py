@@ -1,5 +1,5 @@
 # positional-only argument
-def wish(name, message, /):
+def wish(name : str, message : str, /) -> None:
     print(message, name)
 
 
