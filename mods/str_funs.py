@@ -13,5 +13,7 @@ def has_digit(st : str) -> bool:
     return False
 
 
-# Run only when it is run as script
-print(has_upper('java'))
+# Run this code only when module is run as script and not imported
+if __name__ == '__main__':
+    # Run only when it is run as script
+    print(has_upper('java'))
