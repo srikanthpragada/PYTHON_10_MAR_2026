@@ -1,11 +1,11 @@
 class Counter:
     # Constructor
-    def __init__(self, start = 0):
+    def __init__(self, start=0):
         # Object Attributes
         self.value = start
 
     # Methods
-    def inc(self, step = 1):
+    def inc(self, step=1):
         self.value += step
 
     def dec(self):
@@ -14,11 +14,16 @@ class Counter:
     def get_value(self):
         return self.value
 
-c1 = Counter()   # Object
-print(c1.get_value())
+    @property
+    def currentvalue(self):
+        return self.value
+
+
+c1 = Counter()  # Object
+print(c1.currentvalue)  # Property
 c1.inc()
 c1.inc(5)
-print(c1.get_value())
+print(c1.currentvalue)
 
-c2 = Counter(100)   # Object
-print(c2.get_value())
+c2 = Counter(100)  # Object
+print(c2.currentvalue)
