@@ -14,7 +14,7 @@ class Account:
         if self.__balance - Account.minbal >= amount:
             self.__balance -= amount
         else:
-            print("Sorry! Insufficient Balance!")
+            raise ValueError('Insufficient Balance!')
 
     def getbalance(self):
         return self.__balance
@@ -23,6 +23,10 @@ class Account:
 a = Account(1, "Smith", 15000)
 a.deposit(10000)
 print(a.getbalance())
-a.withdraw(20000)
+try:
+    a.withdraw(20000)
+    print('Withdrawl Successful!')
+except ValueError as e:
+    print(e)
 
-print(a.__balance)
+#print(a.__balance)

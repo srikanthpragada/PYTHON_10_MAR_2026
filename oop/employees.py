@@ -18,8 +18,6 @@ class Employee (ABC):
     def get_salary(self):
         pass
 
-
-
 class RegularEmployee(Employee):
     def __init__(self, name, desg, salary):
         super().__init__(name, desg)
@@ -32,6 +30,17 @@ class RegularEmployee(Employee):
     def get_salary(self):
         return self.salary
 
+class OverseasEmployee(RegularEmployee):
+    def __init__(self,name, desg, salary, currency):
+        super().__init__(name, desg, salary)
+        self.currency = currency
+
+    def show(self):
+        super().show()
+        print(self.currency)
+
+    def get_currency(self):
+        return self.currency
 
 class Consultant(Employee):
     def __init__(self, name, desg, hours, rate):
