@@ -1,0 +1,5 @@
+[
+  {"name" : "iPhone 18 Pro", "price" : 60000 , "features" : ["f1", "f2"] },
+  {"name" : "Bose Headphones", "price" : 30000 , "features" : ["f1", "f2"]},
+  {"name" : "Apple AirPods", "price" : 20000, "features" : ["f1", "f2"] }
+]
