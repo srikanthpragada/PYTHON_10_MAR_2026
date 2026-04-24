@@ -15,3 +15,9 @@ from bs4 import BeautifulSoup
 bs = BeautifulSoup(html_doc, 'html.parser')
 
 print(bs.title.text)
+print(bs.p['class'])
+
+for a in bs.find_all('a'):
+    print(a.text)
+
+
