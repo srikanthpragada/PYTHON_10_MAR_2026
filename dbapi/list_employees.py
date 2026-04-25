@@ -11,7 +11,8 @@ try:
     for id, name, job, salary in cur.fetchall():
         print(f"{id:2} {name:20} {job:10} {salary:10}")
 
-    cur.close()
-    con.close()
 except Exception as ex:
     print('Error :', ex)
+finally:
+    cur.close()
+    con.close()

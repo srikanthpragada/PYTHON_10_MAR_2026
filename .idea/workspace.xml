@@ -52,6 +52,7 @@
     "Python.count_upper.executor": "Run",
     "Python.counter.executor": "Run",
     "Python.course.executor": "Run",
+    "Python.db_to_json.executor": "Run",
     "Python.discount.executor": "Run",
     "Python.employees.executor": "Run",
     "Python.enumerate_demo.executor": "Run",
@@ -68,6 +69,7 @@
     "Python.fun_as_object.executor": "Run",
     "Python.get_upper_count_map.executor": "Run",
     "Python.hello.executor": "Run",
+    "Python.insert_employee.executor": "Run",
     "Python.json_demo.executor": "Run",
     "Python.kw_args.executor": "Run",
     "Python.kw_only.executor": "Run",
@@ -78,9 +80,11 @@
     "Python.lc_codes.executor": "Run",
     "Python.lc_squares.executor": "Run",
     "Python.list_customers.executor": "Run",
+    "Python.list_employees.executor": "Run",
     "Python.list_players.executor": "Run",
     "Python.list_products.executor": "Run",
     "Python.list_top_10_langs.executor": "Run",
+    "Python.load_from_json.executor": "Run",
     "Python.main.executor": "Run",
     "Python.map_demo_1.executor": "Run",
     "Python.map_demo_2.executor": "Run",
@@ -109,11 +113,13 @@
     "Python.student_total_marks.executor": "Run",
     "Python.sum_codes.executor": "Run",
     "Python.sum_of_numbers.executor": "Run",
+    "Python.test_connection.executor": "Run",
     "Python.total_marks.executor": "Run",
     "Python.type_hints_demo.executor": "Run",
     "Python.unique_chars.executor": "Run",
     "Python.unique_chars_names.executor": "Run",
     "Python.unique_numbers.executor": "Run",
+    "Python.update_employee.executor": "Run",
     "Python.use_num_funs.executor": "Run",
     "Python.use_pkg.executor": "Run",
     "Python.use_str_funs.executor": "Run",
@@ -142,8 +148,8 @@
       <recent name="C:\classroom\mar10\ds" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.list_top_10_langs">
-    <configuration name="bs_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.load_from_json">
+    <configuration name="db_to_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mar10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbapi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/bs_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbapi/db_to_json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find_years" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="insert_employee" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mar10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbapi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/find_years.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbapi/insert_employee.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list_players" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="list_employees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mar10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,11 +202,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbapi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/list_players.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbapi/list_employees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list_top_10_langs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="load_from_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mar10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,11 +224,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbapi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/list_top_10_langs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbapi/load_from_json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="show_github_user_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="update_employee" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mar10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,11 +268,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbapi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/show_github_user_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbapi/update_employee.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.list_top_10_langs" />
-        <item itemvalue="Python.bs_demo" />
-        <item itemvalue="Python.show_github_user_info" />
-        <item itemvalue="Python.list_players" />
-        <item itemvalue="Python.find_years" />
+        <item itemvalue="Python.load_from_json" />
+        <item itemvalue="Python.db_to_json" />
+        <item itemvalue="Python.update_employee" />
+        <item itemvalue="Python.insert_employee" />
+        <item itemvalue="Python.list_employees" />
       </list>
     </recent_temporary>
   </component>
